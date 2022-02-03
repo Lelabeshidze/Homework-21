@@ -1,0 +1,12 @@
+{
+    "name": "lecture",
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+      "start": "node ./server.js"
+    },
+    "dependencies": {
+      "uuid": "^8.3.2",
+      "ws": "^8.2.3"
+    }
+  }

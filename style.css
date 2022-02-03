@@ -1,0 +1,40 @@
+.enter-messenger {
+    display: block;
+    width: 200px;
+    margin: 100px auto;
+}
+.enter-messenger.entered {
+    display: none;
+}
+.messenger-wrapper {
+    display: none;
+}
+.messenger-wrapper.entered {
+    display: flex;
+    justify-content: start;
+    height: 100vh;
+    width: 1024px;
+    margin: 0 auto;
+    border: 1px solid #e3e3e3;
+    box-sizing: border-box;
+}
+.messenger-wrapper .online-users-container {
+    width: 250px;
+    border-right: 1px solid #e3e3e3;
+}
+
+.messenger-wrapper .messenger-body {
+    width: 100%;
+    padding: 15px;
+}
+.messenger-wrapper .messenger-messages {
+    height: calc(100% - 50px);
+}
+.messenger-wrapper .messenger-from-container, .messenger-wrapper #message-form {
+    width: 100%;
+    display: flex;
+}
+.messenger-wrapper .messenger-from-container input {
+    width: 100%;
+    height: 40px;
+}
